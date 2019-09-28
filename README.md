@@ -6,12 +6,12 @@ A simple iOS inspired switch with VanillaJS
 
 1. Download the ```uiSwitch.js``` & ````uiSwitch.css```` files to your working folder.
 2. Add the script & stylesheet to your document as follows.
-   ```
+   ```html
     <link rel=stylesheet href="uiSwitch.css" type="text/css"/>
     <script src="uiSwitch.js"></script>
    ```
 3. To your main script file add the following in order to make all divs with class ```uiSwitch``` to switch:
-   ```
+   ```javascript
    elem = document.getElementsByClassName("uiSwitch");
    uiswitch = new Array(<yourSize>);
    for (var i=0;i<elem.length;i++){

@@ -22,7 +22,7 @@ A simple iOS inspired switch with VanillaJS
    where ```<yourSize>``` is the number of elements with the class ```uiSwitch``` & ```<callbackFun>``` is the callback function called when the switch is clicked.
 
 4. You can also select divs individually and set different callbacks for each.
-5. Color change on click can be enabled by calling the ```init``` function by ```init(<element>,<callbackFun>,1)```.
+5. Color change on click can be enabled by calling the ```init``` function by ```javascript init(<element>,<callbackFun>,1)```.
 
 ## Sample
 ![](SampleUiSwitch.gif)

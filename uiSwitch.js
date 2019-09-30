@@ -89,6 +89,7 @@
      var publicAPIs = function(){
          var isSwitchClicked = false;
     };
+	
     publicAPIs.prototype.init = function(elem, callback){
             
             var base = document.createElement("div");
@@ -119,8 +120,6 @@
                   callback();
                 }
             });   
-    };
-   publicAPIs.prototype.getUiIsClicked = function(){
     };
        
     return publicAPIs;
